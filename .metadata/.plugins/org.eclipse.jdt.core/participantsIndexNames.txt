@@ -1,0 +1,3 @@
+INDEX VERSION 1.134
+D:\Aptech\workspace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\645145914.index
+\UpperCaseWEB\src\main\java

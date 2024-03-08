@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="UpperCaseEAR">
+        <wb-resource deploy-path="/" source-path="/EarContent" tag="defaultRootSource"/>
+        <dependent-module archiveName="UpperCaseEJB.jar" deploy-path="/" handle="module:/resource/UpperCaseEJB/UpperCaseEJB">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="UpperCaseEJBClient.jar" deploy-path="/" handle="module:/resource/UpperCaseEJBClient/UpperCaseEJBClient">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="UpperCaseWEB.war" deploy-path="/" handle="module:/resource/UpperCaseWEB/UpperCaseWEB">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+    </wb-module>
+</project-modules>

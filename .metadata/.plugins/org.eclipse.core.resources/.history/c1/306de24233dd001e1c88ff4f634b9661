@@ -1,0 +1,10 @@
+package com.mytech.employeemgmt.web;
+
+import jakarta.enterprise.context.SessionScoped;
+import jakarta.inject.Named;
+
+@Named()
+@SessionScoped
+public class EmployeeManagedBean {
+
+}

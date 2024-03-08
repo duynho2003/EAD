@@ -1,0 +1,5 @@
+package com.mytech.employeemgmt.web;
+
+public class EmployeeManagedBean {
+
+}

@@ -1,0 +1,28 @@
+!SESSION 2024-03-08 16:22:53.002 -----------------------------------------------
+eclipse.buildId=4.30.0.20231201-1200
+java.version=21.0.2
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product --add-opens=java.base/java.security=ALL-UNNAMED -Dorg.eclipse.ecf.provider.filetransfer.excludeContributors=org.eclipse.ecf.provider.filetransfer.httpclientjava -Dosgi.requiredJavaVersion=17 -Dosgi.instance.area.default=@user.home/eclipse-workspace -Dosgi.dataAreaRequiresExplicitInit=true -Dorg.eclipse.swt.graphics.Resource.reportNonDisposed=true -Declipse.e4.inject.javax.warning=false -Dsun.java.command=Eclipse -Xms256m -Xmx2048m -XX:+UseG1GC -XX:+UseStringDeduplication --add-modules=ALL-SYSTEM -Djava.security.manager=allow -Declipse.p2.max.threads=10 -Doomph.update.url=https://download.eclipse.org/oomph/updates/milestone/latest -Doomph.redirection.index.redirection=index:/->https://raw.githubusercontent.com/eclipse-oomph/oomph/master/setups/
+Command-line arguments:  -data file:/D:/Aptech/workspace/ -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product --add-opens=java.base/java.security=ALL-UNNAMED -Dorg.eclipse.ecf.provider.filetransfer.excludeContributors=org.eclipse.ecf.provider.filetransfer.httpclientjava -Dosgi.requiredJavaVersion=17 -Dosgi.instance.area.default=@user.home/eclipse-workspace -Dosgi.dataAreaRequiresExplicitInit=true -Dorg.eclipse.swt.graphics.Resource.reportNonDisposed=true -Declipse.e4.inject.javax.warning=false -Dsun.java.command=Eclipse -Xms256m -Xmx2048m -XX:+UseG1GC -XX:+UseStringDeduplication --add-modules=ALL-SYSTEM -Djava.security.manager=allow -Declipse.p2.max.threads=10 -Doomph.update.url=https://download.eclipse.org/oomph/updates/milestone/latest -Doomph.redirection.index.redirection=index:/->https://raw.githubusercontent.com/eclipse-oomph/oomph/master/setups/
+
+This is a continuation of log file D:\Aptech\workspace\.metadata\.bak_0.log
+Created Time: 2024-03-08 17:21:51.610
+
+!ENTRY org.eclipse.jdt.core.manipulation 4 0 2024-03-08 17:21:51.611
+!MESSAGE Could not find class file. Make sure the file is compilable.
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2024-03-08 17:22:16.257
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842785 2024-03-08 17:22:16.562
+!MESSAGE Server Shutdown Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842760 2024-03-08 17:22:16.585
+!MESSAGE Server Starting
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2024-03-08 17:22:21.313
+!MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.wtp.core 1 16973825 2024-03-08 19:33:50.362
+!MESSAGE Server processes have terminated prematurely. Please check your server logs for more details. 

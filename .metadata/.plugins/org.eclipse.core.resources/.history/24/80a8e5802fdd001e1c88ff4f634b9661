@@ -1,0 +1,19 @@
+package com.mytech.employemgmt.ejb;
+
+import jakarta.ejb.LocalBean;
+import jakarta.ejb.Stateless;
+
+/**
+ * Session Bean implementation class PreferenceBean
+ */
+@Stateless
+@LocalBean
+public class PreferenceBean implements PreferenceBeanRemote {
+
+    private int workingStart = 8;
+    private int workingEnd = 17;
+    public PreferenceBean() {
+        // TODO Auto-generated constructor stub
+    }
+
+}
