@@ -12,8 +12,8 @@
 <h:body>
 	<div class="container">
 		<h1>EMPLOYEE MANAGEMENT</h1>
-		<h2>Time to work: <h:outputText value="#{employeeBean.Timetowork}"></h:outputText></h2>
-		<h2>Time to leave: <h:outputText value="#{employeeBean.Timetoleave}"></h:outputText></h2>
+		<h2>Time to work: <h:outputText value="#{employeeBean.TimeToWork}"></h:outputText></h2>
+		<h2>Time to leave: <h:outputText value="#{employeeBean.TimeToLeave}"></h:outputText></h2>
 		<a href="login">Login</a>
 	</div>
 	
