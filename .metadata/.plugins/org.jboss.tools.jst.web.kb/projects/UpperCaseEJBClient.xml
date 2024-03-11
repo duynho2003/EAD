@@ -40,91 +40,91 @@
    <libraries>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_0-rt.tld" project="UpperCaseEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_0-rt.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_0.tld" project="UpperCaseEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_0.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_2.tld" project="UpperCaseEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_2.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c.tld" project="UpperCaseEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_0-rt.tld" project="UpperCaseEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_0-rt.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_0.tld" project="UpperCaseEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_0.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_1.tld" project="UpperCaseEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_1.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt.tld" project="UpperCaseEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fn-1_1.tld" project="UpperCaseEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fn-1_1.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fn.tld" project="UpperCaseEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fn.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/permittedtaglibs-1_1.tld" project="UpperCaseEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/permittedtaglibs-1_1.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/permittedtaglibs.tld" project="UpperCaseEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/permittedtaglibs.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/scriptfree-1_1.tld" project="UpperCaseEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/scriptfree-1_1.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/scriptfree.tld" project="UpperCaseEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/scriptfree.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_0-rt.tld" project="UpperCaseEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_0-rt.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_0.tld" project="UpperCaseEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_0.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_1.tld" project="UpperCaseEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_1.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql.tld" project="UpperCaseEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_0-rt.tld" project="UpperCaseEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_0-rt.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_0.tld" project="UpperCaseEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_0.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_1.tld" project="UpperCaseEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_1.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x.tld" project="UpperCaseEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x.tld" project="EmployeeMgmtEJB"/>
     </library>
    </libraries>
   </path>

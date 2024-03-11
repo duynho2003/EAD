@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kb-project>
  <depends-on-projects/>
- <used-by-projects>
-  <project name="EmployeeMgmtWEB"/>
- </used-by-projects>
+ <used-by-projects/>
  <paths>
   <path value="D:/Aptech/Dev Tools/Java/wildfly-30.0.0.Final/modules/system/layers/base/org/wildfly/security/elytron-base/main/wildfly-elytron-auth-2.2.2.Final.jar"/>
   <path value="D:/Aptech/Dev Tools/Java/wildfly-30.0.0.Final/modules/system/layers/base/jakarta/enterprise/api/main/jakarta.enterprise.lang-model-4.0.1.jar"/>
