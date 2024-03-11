@@ -1,0 +1,8 @@
+package com.mytech.employeemgmt.web.models;
+
+public class Employee {
+	private String employeeId;
+	private String employeeName;
+	private String employeeId;
+	private String employeeId;
+}

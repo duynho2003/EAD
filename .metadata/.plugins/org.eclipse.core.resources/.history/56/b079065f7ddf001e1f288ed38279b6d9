@@ -1,0 +1,68 @@
+package com.mytech.employeemgmt.web;
+
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.List;
+
+import com.mytech.employeemgmt.ejb.PreferenceBean;
+import com.mytech.employeemgmt.web.models.Employee;
+
+import jakarta.ejb.EJB;
+import jakarta.enterprise.context.SessionScoped;
+import jakarta.inject.Named;
+
+@Named("employeeBean")
+@SessionScoped
+public class EmployeeManagedBean implements Serializable {
+
+	private static final long serialVersionUID = -2776166670103131819L;
+
+	private String username;
+	private String password;
+
+	private List<Employee> listEmployees;
+
+	public EmployeeManagedBean() {
+		listEmployees = new ArrayList<Employee>();
+		listEmployees.add(new Employee("emp1", "admin1", "123456", 26));
+	}
+
+	@EJB
+	private PreferenceBean preferenceBean;
+
+	// Login
+	public void performLogin() {
+		System.out.println("username: " + username + " -- password " + password);
+		for (Employee employee : listEmployees) {
+			if (employee.getEmployeeName().equals(username)) {
+				if(employee.getEmployeePassword().equals(password)) {
+					
+				}
+			}
+		}
+	}
+
+	public String getUsername() {
+		return username;
+	}
+
+	public void setUsername(String username) {
+		this.username = username;
+	}
+
+	public String getPassword() {
+		return password;
+	}
+
+	public void setPassword(String password) {
+		this.password = password;
+	}
+
+	public int getTimeToWork() {
+		return preferenceBean.getWorkingStart();
+	}
+
+	public int getTimeToLeave() {
+		return preferenceBean.getWorkingEnd();
+	}
+}
