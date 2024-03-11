@@ -6,4 +6,3 @@ INDEX VERSION 1.4+D:\Aptech\workspace\.metadata\.plugins\org.eclipse.wst.jsdt.co
 701652220.index
 2584997540.index
 716972869.index
-1480957261.index

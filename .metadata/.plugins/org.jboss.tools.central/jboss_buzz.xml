@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>JBoss Tools Aggregated Feed</title>
   <id>https://tools.jboss.org</id>
-  <updated>2024-03-08T06:11:26Z</updated>
+  <updated>2024-03-11T06:11:48Z</updated>
   <link href="https://tools.jboss.org"/>
   <xhtml:meta content="noindex" name="robots" xmlns:xhtml="http://www.w3.org/1999/xhtml"/><entry>
-    <title>JBoss Blogs: WildFly - The GitOps Way</title>
-    <updated>2024-03-07T00:00:00Z</updated>
-    <id>https://jmesnil.net/weblog/2024/03/05/wildfly-gitops/</id>
-    <link href="https://jmesnil.net/weblog/2024/03/05/wildfly-gitops/" rel="alternate"/>
+    <title>JBoss Blogs: Hosting a React Application on WildFly</title>
+    <updated>2024-03-08T00:00:00Z</updated>
+    <id>http://lofthouse.dev/2024/03/07/hosting-a-react-application-on-wildfly/</id>
+    <link href="http://lofthouse.dev/2024/03/07/hosting-a-react-application-on-wildfly/" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -25,6 +25,13 @@
     <summary type="html"/>
   </entry>
   <entry>
+    <title>JBoss Blogs: WildFly - The GitOps Way</title>
+    <updated>2024-03-07T00:00:00Z</updated>
+    <id>https://jmesnil.net/weblog/2024/03/05/wildfly-gitops/</id>
+    <link href="https://jmesnil.net/weblog/2024/03/05/wildfly-gitops/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
     <title>Red Hat Developer: How to use Helm charts to deploy Data Grid on OpenShift</title>
     <updated>2024-03-06T07:00:00Z</updated>
     <id>943a04bc-c495-44d4-8d18-f5a5117198d6</id>
@@ -32,17 +39,17 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>Red Hat Developer: How to use JBoss EAP 8.0's new provisioning system</title>
-    <updated>2024-03-05T07:00:00Z</updated>
-    <id>d2e0b956-fcac-4f7a-b10a-c482a86fcb58</id>
-    <link href="https://developers.redhat.com/articles/2024/03/05/how-use-jboss-eap-80s-new-provisioning-system" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
     <title>Red Hat Developer: Create an efficient Ansible development environment in VS Code IDE</title>
     <updated>2024-03-05T07:00:00Z</updated>
     <id>dbf674f5-9e4c-4430-ab94-75036f6344f0</id>
     <link href="https://developers.redhat.com/articles/2024/03/05/create-efficient-ansible-development-environment-vs-code-ide" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Red Hat Developer: How to use JBoss EAP 8.0's new provisioning system</title>
+    <updated>2024-03-05T07:00:00Z</updated>
+    <id>d2e0b956-fcac-4f7a-b10a-c482a86fcb58</id>
+    <link href="https://developers.redhat.com/articles/2024/03/05/how-use-jboss-eap-80s-new-provisioning-system" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -130,13 +137,6 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Blogs: WildFly 31.0.1 is released!</title>
-    <updated>2024-02-28T00:00:00Z</updated>
-    <id>https://wildfly.org//news/2024/02/28/WildFly3101-Released/</id>
-    <link href="https://wildfly.org//news/2024/02/28/WildFly3101-Released/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
     <title>JBoss Blogs: Quarkus 3.8 - Our new LTS version</title>
     <updated>2024-02-28T00:00:00Z</updated>
     <id>https://quarkus.io/blog/quarkus-3-8-released/</id>
@@ -144,10 +144,10 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>Red Hat Developer: Network observability using TCP handshake round-trip time</title>
-    <updated>2024-02-27T07:00:00Z</updated>
-    <id>7642f7d5-6cef-4a3a-86b6-7fee12f2ab3d</id>
-    <link href="https://developers.redhat.com/articles/2024/02/27/network-observability-using-tcp-handshake-round-trip-time" rel="alternate"/>
+    <title>JBoss Blogs: WildFly 31.0.1 is released!</title>
+    <updated>2024-02-28T00:00:00Z</updated>
+    <id>https://wildfly.org//news/2024/02/28/WildFly3101-Released/</id>
+    <link href="https://wildfly.org//news/2024/02/28/WildFly3101-Released/" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -158,14 +158,21 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Blogs: The road to generated SDKs with Kiota using Quarkus</title>
+    <title>Red Hat Developer: Network observability using TCP handshake round-trip time</title>
+    <updated>2024-02-27T07:00:00Z</updated>
+    <id>7642f7d5-6cef-4a3a-86b6-7fee12f2ab3d</id>
+    <link href="https://developers.redhat.com/articles/2024/02/27/network-observability-using-tcp-handshake-round-trip-time" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Quarkus: The road to generated SDKs with Kiota using Quarkus</title>
     <updated>2024-02-27T00:00:00Z</updated>
     <id>https://quarkus.io/blog/quarkus-kiota/</id>
     <link href="https://quarkus.io/blog/quarkus-kiota/" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
-    <title>Quarkus: The road to generated SDKs with Kiota using Quarkus</title>
+    <title>JBoss Blogs: The road to generated SDKs with Kiota using Quarkus</title>
     <updated>2024-02-27T00:00:00Z</updated>
     <id>https://quarkus.io/blog/quarkus-kiota/</id>
     <link href="https://quarkus.io/blog/quarkus-kiota/" rel="alternate"/>
@@ -228,13 +235,6 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Blogs: Quarkus 3.7.4 released - Maintenance release</title>
-    <updated>2024-02-21T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/quarkus-3-7-4-released/</id>
-    <link href="https://quarkus.io/blog/quarkus-3-7-4-released/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
     <title>Quarkus: Quarkus 3.7.4 released - Maintenance release</title>
     <updated>2024-02-21T00:00:00Z</updated>
     <id>https://quarkus.io/blog/quarkus-3-7-4-released/</id>
@@ -291,17 +291,17 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Blogs: This Week in JBoss - July 03, 2023</title>
-    <updated>2023-07-03T00:00:00Z</updated>
-    <id>https://www.jboss.org/posts/weekly-2023-07-03.html</id>
-    <link href="https://www.jboss.org/posts/weekly-2023-07-03.html" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
     <title>JBoss Tools: JBoss Tools 4.28.0.Final for Eclipse 2023-06</title>
     <updated>2023-07-03T00:00:00Z</updated>
     <id>https://tools.jboss.org/blog/4.28.0.final.html</id>
     <link href="https://tools.jboss.org/blog/4.28.0.final.html" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: This Week in JBoss - July 03, 2023</title>
+    <updated>2023-07-03T00:00:00Z</updated>
+    <id>https://www.jboss.org/posts/weekly-2023-07-03.html</id>
+    <link href="https://www.jboss.org/posts/weekly-2023-07-03.html" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>

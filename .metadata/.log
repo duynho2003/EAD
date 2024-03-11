@@ -1751,3 +1751,9 @@ Caused by: java.lang.ExceptionInInitializerError: Exception java.lang.ExceptionI
 
 !ENTRY org.jboss.ide.eclipse.as.core 1 16842769 2024-03-11 14:13:29.734
 !MESSAGE Server Startup Succeeded
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842776 2024-03-11 14:15:41.135
+!MESSAGE Server shutting down
+
+!ENTRY org.jboss.ide.eclipse.as.core 1 16842785 2024-03-11 14:15:41.797
+!MESSAGE Server Shutdown Succeeded

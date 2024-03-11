@@ -39,91 +39,91 @@
    <libraries>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_0-rt.tld" project="HelloBeanEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_0-rt.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_0.tld" project="HelloBeanEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_0.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_2.tld" project="HelloBeanEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_2.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c.tld" project="HelloBeanEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_0-rt.tld" project="HelloBeanEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_0-rt.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_0.tld" project="HelloBeanEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_0.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_1.tld" project="HelloBeanEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_1.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt.tld" project="HelloBeanEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fn-1_1.tld" project="HelloBeanEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fn-1_1.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fn.tld" project="HelloBeanEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fn.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/permittedtaglibs-1_1.tld" project="HelloBeanEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/permittedtaglibs-1_1.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/permittedtaglibs.tld" project="HelloBeanEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/permittedtaglibs.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/scriptfree-1_1.tld" project="HelloBeanEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/scriptfree-1_1.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/scriptfree.tld" project="HelloBeanEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/scriptfree.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_0-rt.tld" project="HelloBeanEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_0-rt.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_0.tld" project="HelloBeanEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_0.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_1.tld" project="HelloBeanEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_1.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql.tld" project="HelloBeanEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_0-rt.tld" project="HelloBeanEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_0-rt.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_0.tld" project="HelloBeanEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_0.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_1.tld" project="HelloBeanEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_1.tld" project="EmployeeMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x.tld" project="HelloBeanEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x.tld" project="EmployeeMgmtEJB"/>
     </library>
    </libraries>
   </path>
@@ -202,22 +202,21 @@
   <path value="D:/Aptech/Dev Tools/Java/wildfly-30.0.0.Final/modules/system/layers/base/org/wildfly/security/elytron-base/main/wildfly-elytron-x500-2.2.2.Final.jar"/>
  </paths>
  <validation>
-  <core validator-id="jboss.cdi.core"/>
   <el>
-   <linked-el length="24" name="%0" offset="486" path="%1"/>
-   <linked-el length="28" name="%2" offset="568" path="%3"/>
-   <linked-el length="29" name="%4" offset="660" path="%3"/>
-   <linked-el length="28" name="%4" offset="568" path="%3"/>
-   <linked-el length="29" name="%5" offset="660" path="%3"/>
+   <linked-el length="24" name="%0" offset="476" path="%1"/>
+   <linked-el length="28" name="%2" offset="562" path="%3"/>
+   <linked-el length="29" name="%4" offset="654" path="%3"/>
+   <linked-el length="29" name="%5" offset="654" path="%3"/>
+   <linked-el length="28" name="%5" offset="562" path="%3"/>
   </el>
  </validation>
  <aliases>
   <alias path="basedir" value="%0"/>
+  <alias path="employeeBean.timeToWork" value="%2"/>
   <alias path="/EmployeeMgmtWEB/pom.xml" value="%1"/>
-  <alias path="employeeBean.TimeToWork" value="%2"/>
   <alias path="/EmployeeMgmtWEB/src/main/webapp/index.xhtml" value="%3"/>
-  <alias path="employeeBean" value="%4"/>
-  <alias path="employeeBean.TimeToLeave" value="%5"/>
+  <alias path="employeeBean.timeToLeave" value="%4"/>
+  <alias path="employeeBean" value="%5"/>
  </aliases>
  <includes/>
  <uris/>

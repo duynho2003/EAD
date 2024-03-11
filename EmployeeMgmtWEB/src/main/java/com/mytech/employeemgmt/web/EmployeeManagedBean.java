@@ -2,7 +2,7 @@ package com.mytech.employeemgmt.web;
 
 import java.io.Serializable;
 
-import com.mytech.employemgmt.ejb.PreferenceBean;
+import com.mytech.employeemgmt.ejb.PreferenceBean;
 
 import jakarta.ejb.EJB;
 import jakarta.enterprise.context.SessionScoped;
@@ -10,9 +10,9 @@ import jakarta.inject.Named;
 
 @Named("employeeBean")
 @SessionScoped
-public class EmployeeManagedBean implements Serializable{
+public class EmployeeManagedBean implements Serializable {
 
-	private static final long serialVersionUID = 1L;
+	private static final long serialVersionUID = -2776166670103131819L;
 	
 	@EJB
 	private PreferenceBean preferenceBean;
@@ -24,5 +24,4 @@ public class EmployeeManagedBean implements Serializable{
 	public int getTimeToLeave() {
 		return preferenceBean.getWorkingEnd();
 	}
-
 }
