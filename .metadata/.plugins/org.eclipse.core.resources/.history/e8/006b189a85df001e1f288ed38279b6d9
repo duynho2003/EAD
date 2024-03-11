@@ -1,0 +1,51 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+      
+   		
+<h:head>
+	<title>Employee Management</title>
+	<h:outputStylesheet library="css" name="bootstrap.min.css"></h:outputStylesheet>
+</h:head>
+<h:body>
+	<div class="container">
+		<h1>NEW EMPLOYEE</h1>
+		<f:view>
+			<h:form>
+				<h:panelGrid columns="3">
+					<!-- ID -->
+					<h:outputText value="Employee ID:"></h:outputText>
+					<h:inputText id="employeeId" required="true" requiredMessage="Must have employee id" 
+					value="#{employeeBean.employee.employeeId}"></h:inputText>
+					<h:message for="employeeId"></h:message>
+				
+					<!-- Name -->
+					<h:outputText value="Employee Name:"></h:outputText>
+					<h:inputText id="employeeName" required="true" requiredMessage="Must have employee name" 
+					value="#{employeeBean.employee.employeeName}"></h:inputText>
+					<h:message for="employeeName"></h:message>
+					
+					<!-- Password -->
+					<h:outputText value="Employee Password:"></h:outputText>
+					<h:inputSecret id="employeePassword" required="true" requiredMessage="Password couldn't be blank" 
+					value="#{employeeBean.employee.employeePassword}"></h:inputSecret>
+					<h:message for="employeePassword"></h:message>
+					
+					<!-- Age -->
+					<h:outputText value="Employee Age"></h:outputText>
+					<h:outputText id="employeeAge" required="true" requiredMessage="Age must be at least 18" 
+					value="#{employeeBean.employee.employeeAge}"></h:outputText>
+					<h:message for="employeeAge"></h:message>
+					
+				</h:panelGrid>
+				
+				<h:commandButton value="Create" action="#{employeeBean.performAdd]}"></h:commandButton>
+			</h:form>
+		</f:view>
+	</div>
+	
+	<h:outputScript library="js" name="bootstrap.bundle.min.js"></h:outputScript>
+</h:body>
+</html>

@@ -6,6 +6,8 @@ public class Employee {
 	private String employeePassword;
 	private int employeeAge;
 
+	public Employee() {}
+	
 	public Employee(String employeeId, String employeeName, String employeePassword, int employeeAge) {
 		super();
 		this.employeeId = employeeId;

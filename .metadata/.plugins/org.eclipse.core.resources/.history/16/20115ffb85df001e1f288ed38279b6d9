@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+
+<h:head>
+	<title>Employee Management</title>
+	<h:outputStylesheet library="css" name="bootstrap.min.css"></h:outputStylesheet>
+</h:head>
+<h:body>
+	<div class="container">
+		<h1>EMPLOYEE MANAGEMENT HOME</h1>
+		<f:view>
+			<h:form></h:form>
+			<h1>List Employees</h1>
+			<h:form>
+				<h:dataTable class="table" value="#{employeeBean.listEmployees}"
+					var="item">
+					<h:column>
+						<f:facet name="header">
+							<h:outputText value="Employee ID"></h:outputText>
+						</f:facet>
+						<h:outputText value="#{item.employeeId}"></h:outputText>
+					</h:column>
+					<h:column>
+						<f:facet name="header">
+							<h:outputText value="Employee Name"></h:outputText>
+						</f:facet>
+						<h:outputText value="#{item.employeeName}"></h:outputText>
+					</h:column>
+					<h:column>
+						<f:facet name="header">
+							<h:outputText value="Employee Age"></h:outputText>
+						</f:facet>
+						<h:outputText value="#{item.employeeAge}"></h:outputText>
+					</h:column>
+				</h:dataTable>
+			</h:form>
+		</f:view>
+	</div>
+
+	<h:outputScript library="js" name="bootstrap.bundle.min.js"></h:outputScript>
+</h:body>
+</html>
