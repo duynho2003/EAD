@@ -39,91 +39,91 @@
    <libraries>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_0-rt.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_0-rt.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_0.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_0.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_2.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_2.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_0-rt.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_0-rt.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_0.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_0.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_1.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_1.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fn-1_1.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fn-1_1.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fn.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fn.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/permittedtaglibs-1_1.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/permittedtaglibs-1_1.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/permittedtaglibs.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/permittedtaglibs.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/scriptfree-1_1.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/scriptfree-1_1.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/scriptfree.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/scriptfree.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_0-rt.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_0-rt.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_0.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_0.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_1.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_1.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_0-rt.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_0-rt.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_0.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_0.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_1.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_1.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x.tld" project="ShopMgmtEJB"/>
     </library>
    </libraries>
   </path>
@@ -204,51 +204,52 @@
  <validation>
   <core validator-id="jboss.cdi.core"/>
   <el>
-   <linked-el length="26" name="%0" offset="1021" path="%1"/>
+   <linked-el length="26" name="%0" offset="888" path="%1"/>
    <linked-el length="28" name="%2" offset="561" path="%3"/>
-   <linked-el length="38" name="%4" offset="1637" path="%5"/>
-   <linked-el length="21" name="%6" offset="1335" path="%7"/>
-   <linked-el length="20" name="%6" offset="930" path="%7"/>
-   <linked-el length="22" name="%6" offset="1132" path="%7"/>
-   <linked-el length="43" name="%8" offset="1338" path="%5"/>
-   <linked-el length="21" name="%9" offset="1335" path="%7"/>
-   <linked-el length="37" name="%10" offset="735" path="%7"/>
-   <linked-el length="20" name="%11" offset="930" path="%7"/>
-   <linked-el length="26" name="%12" offset="1021" path="%1"/>
-   <linked-el length="39" name="%12" offset="1029" path="%5"/>
-   <linked-el length="38" name="%12" offset="1637" path="%5"/>
-   <linked-el length="30" name="%12" offset="1812" path="%5"/>
+   <linked-el length="38" name="%4" offset="1536" path="%5"/>
+   <linked-el length="43" name="%6" offset="1261" path="%5"/>
+   <linked-el length="20" name="%7" offset="955" path="%8"/>
+   <linked-el length="22" name="%7" offset="1157" path="%8"/>
+   <linked-el length="21" name="%7" offset="1360" path="%8"/>
+   <linked-el length="21" name="%9" offset="1360" path="%8"/>
+   <linked-el length="32" name="%10" offset="765" path="%8"/>
+   <linked-el length="20" name="%11" offset="955" path="%8"/>
+   <linked-el length="26" name="%12" offset="683" path="%1"/>
+   <linked-el length="30" name="%12" offset="616" path="%8"/>
+   <linked-el length="39" name="%12" offset="980" path="%5"/>
    <linked-el length="29" name="%12" offset="653" path="%3"/>
-   <linked-el length="32" name="%12" offset="1217" path="%1"/>
-   <linked-el length="37" name="%12" offset="742" path="%5"/>
+   <linked-el length="32" name="%12" offset="1023" path="%1"/>
    <linked-el length="28" name="%12" offset="561" path="%3"/>
-   <linked-el length="43" name="%12" offset="1338" path="%5"/>
-   <linked-el length="26" name="%12" offset="761" path="%1"/>
-   <linked-el length="37" name="%12" offset="735" path="%7"/>
-   <linked-el length="26" name="%13" offset="761" path="%1"/>
+   <linked-el length="43" name="%12" offset="1261" path="%5"/>
+   <linked-el length="30" name="%12" offset="1710" path="%5"/>
+   <linked-el length="26" name="%12" offset="888" path="%1"/>
+   <linked-el length="37" name="%12" offset="720" path="%5"/>
+   <linked-el length="38" name="%12" offset="1536" path="%5"/>
+   <linked-el length="32" name="%12" offset="765" path="%8"/>
+   <linked-el length="26" name="%13" offset="683" path="%1"/>
    <linked-el length="24" name="%14" offset="476" path="%15"/>
    <linked-el length="29" name="%16" offset="653" path="%3"/>
-   <linked-el length="37" name="%17" offset="742" path="%5"/>
-   <linked-el length="39" name="%18" offset="1029" path="%5"/>
-   <linked-el length="38" name="%18" offset="1637" path="%5"/>
-   <linked-el length="37" name="%18" offset="742" path="%5"/>
-   <linked-el length="43" name="%18" offset="1338" path="%5"/>
-   <linked-el length="39" name="%19" offset="1029" path="%5"/>
-   <linked-el length="22" name="%20" offset="1132" path="%7"/>
+   <linked-el length="37" name="%17" offset="720" path="%5"/>
+   <linked-el length="39" name="%18" offset="980" path="%5"/>
+   <linked-el length="43" name="%18" offset="1261" path="%5"/>
+   <linked-el length="37" name="%18" offset="720" path="%5"/>
+   <linked-el length="38" name="%18" offset="1536" path="%5"/>
+   <linked-el length="39" name="%19" offset="980" path="%5"/>
+   <linked-el length="22" name="%20" offset="1157" path="%8"/>
   </el>
  </validation>
  <aliases>
   <alias path="employeeBean.password" value="%0"/>
   <alias path="employeeBean.timeToWork" value="%2"/>
   <alias path="employeeBean.employee.employeeAge" value="%4"/>
-  <alias path="item" value="%6"/>
-  <alias path="employeeBean.employee.employeePassword" value="%8"/>
+  <alias path="employeeBean.employee.employeePassword" value="%6"/>
+  <alias path="item" value="%7"/>
   <alias path="/EmployeeMgmtWEB/src/main/webapp/index.xhtml" value="%3"/>
   <alias path="item.employeeAge" value="%9"/>
   <alias path="employeeBean.listEmployees" value="%10"/>
   <alias path="item.employeeId" value="%11"/>
   <alias path="/EmployeeMgmtWEB/src/main/webapp/add.xhtml" value="%5"/>
-  <alias path="/EmployeeMgmtWEB/src/main/webapp/home.xhtml" value="%7"/>
+  <alias path="/EmployeeMgmtWEB/src/main/webapp/home.xhtml" value="%8"/>
   <alias path="employeeBean" value="%12"/>
   <alias path="employeeBean.username" value="%13"/>
   <alias path="/EmployeeMgmtWEB/src/main/webapp/login.xhtml" value="%1"/>
