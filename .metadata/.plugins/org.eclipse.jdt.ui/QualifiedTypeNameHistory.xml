@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="org.eclipse.tags.shaded.org.apache.bcel.generic.RETURN"/>
-    <fullyQualifiedTypeName name="jakarta.annotation.PostConstruct"/>
     <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="jakarta.annotation.PreDestroy"/>
     <fullyQualifiedTypeName name="jakarta.enterprise.concurrent.ContextServiceDefinition.List"/>
@@ -40,12 +39,15 @@
     <fullyQualifiedTypeName name="jakarta.persistence.EntityManager"/>
     <fullyQualifiedTypeName name="com.mytech.shopmgmt.ejb.facades.AbstractFacade"/>
     <fullyQualifiedTypeName name="jakarta.persistence.PersistenceContext"/>
-    <fullyQualifiedTypeName name="com.mytech.shopmgmt.ejb.entities.Category"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="jakarta.inject.Named"/>
-    <fullyQualifiedTypeName name="com.mytech.shopmgmt.web.ShopMgmtBean"/>
     <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.awt.print.Book"/>
+    <fullyQualifiedTypeName name="jakarta.annotation.PostConstruct"/>
     <fullyQualifiedTypeName name="com.mytech.shopmgmt.ejb.entities.Book"/>
+    <fullyQualifiedTypeName name="com.mytech.shopmgmt.ejb.entities.Category"/>
+    <fullyQualifiedTypeName name="com.mytech.shopmgmt.ejb.facades.CategoryFacade"/>
+    <fullyQualifiedTypeName name="com.mytech.shopmgmt.web.ShopMgmtBean"/>
 </qualifiedTypeNameHistroy>

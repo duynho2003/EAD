@@ -1,0 +1,46 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:h="http://java.sun.com/jsf/html">
+      
+   		
+<h:head>
+	<title>Employee Management</title>
+	<h:outputStylesheet library="css" name="bootstrap.min.css"></h:outputStylesheet>
+</h:head>
+<h:body>
+	<div class="container">
+		<h1>NEW BOOK</h1>
+		<f:view>
+			<h:form>
+				<h:panelGrid columns="3">
+					<h:outputText value="Book Name:"></h:outputText>
+					<h:inputText id="bookName" required="true" requiredMessage="Must have book name" value="#{shopMgmtBean.book.name}"></h:inputText>
+					<h:message for="bookName"></h:message>
+					
+					<h:outputText value="Book Preview:"></h:outputText>
+					<h:inputText id="bookPreview" required="true" value="#{shopMgmtBean.book.preview}"></h:inputText>
+					<h:message for="bookPreview"></h:message>
+					
+					<h:outputText value="Book Price:"></h:outputText>
+					<h:inputText id="bookPrice" required="true" requiredMessage="Price must be greater than 0" value="#{shopMgmtBean.book.price}"></h:inputText>
+					<h:message for="bookPrice"></h:message>
+					
+					<h:outputText value="Book category:"></h:outputText>
+					<h:selectOneMenu value="#{shopMgmtBean.categoryId}">
+						<f:selectItems value="#{shopMgmtBean.categories}" var="item" itemLabel="#{item.catName}" itemValue="#{item.catId}">
+							
+						</f:selectItems>
+					</h:selectOneMenu>
+					
+				</h:panelGrid>
+				
+				<h:commandButton value="Create" action="#{shopMgmtBean.performCreateBook()}"></h:commandButton>
+			</h:form>
+		</f:view>
+	</div>
+	
+	<h:outputScript library="js" name="bootstrap.bundle.min.js"></h:outputScript>
+</h:body>
+</html>

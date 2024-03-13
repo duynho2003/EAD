@@ -13,6 +13,10 @@
 	<div class="container">
 		<h1>BOOKS MANAGEMENT</h1>
 		<f:view>
+			<h:form>
+				<h:commandLink value="Add New Book"
+					action="#{shopMgmtBean.displayCreateBook()}"></h:commandLink>
+			</h:form>
 			<h:dataTable class="table" value="#{shopMgmtBean.books}" var="item">
 				<h:column>
 					<f:facet name="header">
