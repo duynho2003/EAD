@@ -4,6 +4,7 @@
 	<comment></comment>
 	<projects>
 		<project>ShopMgmtEJB</project>
+		<project>ShopMgmtWEB</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

@@ -37,91 +37,91 @@
    <libraries>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_0-rt.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_0-rt.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_0.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_0.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_2.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c-1_2.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/c.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_0-rt.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_0-rt.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_0.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_0.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_1.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt-1_1.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fmt.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fn-1_1.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fn-1_1.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fn.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/fn.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/permittedtaglibs-1_1.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/permittedtaglibs-1_1.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/permittedtaglibs.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/permittedtaglibs.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/scriptfree-1_1.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/scriptfree-1_1.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/scriptfree.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/scriptfree.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_0-rt.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_0-rt.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_0.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_0.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_1.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql-1_1.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/sql.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_0-rt.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_0-rt.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_0.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_0.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_1.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x-1_1.tld" project="ShopMgmtEJB"/>
     </library>
     <library class="tld">
      <id class="model-object"
-      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x.tld" project="EmployeeMgmtEJB"/>
+      path="FileSystems/lib-jakarta.servlet.jsp.jstl-3.0.0.jar/meta-inf/x.tld" project="ShopMgmtEJB"/>
     </library>
    </libraries>
   </path>
