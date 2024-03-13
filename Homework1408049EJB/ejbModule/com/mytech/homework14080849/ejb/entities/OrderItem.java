@@ -22,7 +22,7 @@ public class OrderItem implements Serializable {
 	@Column(name = "order_item_id")
 	private long id;
 
-	@Min(value = 0, message = "Quantity must be at least 0")
+	@Min(value = 1, message = "Quantity must be at least 1")
 	private int quantity;
 
 	@Min(value = 0, message = "Price must be at least 0 VND")

@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <classpath>
+  <source-attachment entry="D:/Aptech/Dev Tools/Java/wildfly-30.0.0.Final/modules/system/layers/base/jakarta/persistence/api/main/jakarta.persistence-api-3.1.0.jar" runtime-id="WildFly 27.0 Runtime" source-attachment-path="C:/Users/Admin/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0-sources.jar"/>
   <source-attachment entry="D:/Aptech/Dev Tools/Java/wildfly-30.0.0.Final/modules/system/layers/base/jakarta/servlet/api/main/jakarta.servlet-api-6.0.0.jar" runtime-id="WildFly 27.0 Runtime" source-attachment-path="C:/Users/Admin/.m2/repository/jakarta/servlet/jakarta.servlet-api/6.0.0/jakarta.servlet-api-6.0.0-sources.jar"/>
 </classpath>
