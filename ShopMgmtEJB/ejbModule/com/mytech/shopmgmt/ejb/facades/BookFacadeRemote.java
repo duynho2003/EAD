@@ -12,5 +12,5 @@ public interface BookFacadeRemote {
 	public void update(Book book);
 	public void remove(Book book);
 	public Book find(Object id);
-	public List<Book> findAll;
+	public List<Book> findAll();
 }
