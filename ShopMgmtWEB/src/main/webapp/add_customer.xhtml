@@ -6,7 +6,7 @@
       
    		
 <h:head>
-	<title>Employee Management</title>
+	<title>Customer Management</title>
 	<h:outputStylesheet library="css" name="bootstrap.min.css"></h:outputStylesheet>
 </h:head>
 <h:body>
@@ -16,13 +16,12 @@
 			<h:form>
 				<h:panelGrid columns="3">
 					<h:outputText value="Name:"></h:outputText>
-					<h:inputText id="name" required="true" requiredMessage="Must have customer name" value="#{shopMgmtBean.customer.name}"></h:inputText>
-					<h:message for="name"></h:message>
+					<h:inputText id="customerName" required="true" requiredMessage="Must have customer name" value="#{shopMgmtBean.customer.name}"></h:inputText>
+					<h:message for="customerName"></h:message>
 					
-					<h:outputText value="Age:"></h:outputText>
+					<h:outputText value="Age"></h:outputText>
 					<h:inputText id="age" required="true" requiredMessage="Customer age must 18" value="#{shopMgmtBean.customer.age}"></h:inputText>
 					<h:message for="age"></h:message>
-					
 				</h:panelGrid>
 				
 				<h:commandButton value="Create" action="#{shopMgmtBean.performCreateCustomer()}"></h:commandButton>

@@ -25,7 +25,7 @@ public class ShopMgmtBean implements Serializable {
 	private List<Book> books;
 	private List<Category> categories;
 	private List<Customer> customers;
-	
+
 	private Customer customer;
 	private Book book;
 	private long categoryId;
@@ -74,7 +74,7 @@ public class ShopMgmtBean implements Serializable {
 	}
 
 	public String performCreateCustomer() {
-		CustomerFacade.create(customer);
+		customerFacade.create(customer);
 		customers = customerFacade.findAll();
 		return "customers";
 	}
@@ -87,17 +87,16 @@ public class ShopMgmtBean implements Serializable {
 	}
 
 	public String performCreateBook() {
-		// Need refactor to fix issue
+		// Need refactor to fix issue.
 		Category category = categoryFacade.find(categoryId);
 		book.setCategory(category);
 		bookFacade.create(book);
-
 		//
 		books = bookFacade.findAll();
 		return "books";
 	}
 
-	//Getter and Setter
+	//Getter & Setter
 	public List<Book> getBooks() {
 		return books;
 	}

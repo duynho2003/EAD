@@ -3,7 +3,6 @@ package com.mytech.shopmgmt.ejb.facades;
 import java.io.Serializable;
 import java.util.List;
 
-import com.mytech.shopmgmt.ejb.entities.Book;
 import com.mytech.shopmgmt.ejb.entities.Customer;
 
 import jakarta.ejb.LocalBean;
@@ -17,16 +16,16 @@ import jakarta.persistence.TypedQuery;
  */
 @Stateless
 @LocalBean
-public class CustomerFacade extends AbstractFacade<Customer> implements CustomerFacadeRemote, Serializable{
+public class CustomerFacade extends AbstractFacade<Customer> implements CustomerFacadeRemote, Serializable {
 
 	private static final long serialVersionUID = 1505615772566778483L;
 	
 	@PersistenceContext(unitName = "ShopMgmtEJB")
-	private EntityManager em;
+    private EntityManager em;
 	
-	public CustomerFacade() {
-		super(Customer.class);
-	}
+    public CustomerFacade() {
+        super(Customer.class);
+    }
 
 	@Override
 	protected EntityManager getEntityManager() {
