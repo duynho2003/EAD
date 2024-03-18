@@ -22,10 +22,10 @@ import jakarta.validation.constraints.Size;
  */
 @Entity
 @Table(name = "Customers")
-@NamedQueries({ @NamedQuery(name = "Customer.findAll", query = "SELECT e FROM Customer e"),
-		@NamedQuery(name = "Customer.findByCustomerId", query = "SELECT e FROM Customer e WHERE e.id = :id"),
-		@NamedQuery(name = "Customer.findByName", query = "SELECT e FROM Customer e WHERE e.name = :name"),
-		@NamedQuery(name = "Customer.findByAge", query = "SELECT e FROM Customer e WHERE e.age = :age") })
+@NamedQueries({ @NamedQuery(name = "Customer.findAll", query = "SELECT c FROM Customer c"),
+		@NamedQuery(name = "Customer.findByCustomerId", query = "SELECT c FROM Customer c WHERE c.id = :id"),
+		@NamedQuery(name = "Customer.findByName", query = "SELECT c FROM Customer c WHERE c.name = :name"),
+		@NamedQuery(name = "Customer.findByAge", query = "SELECT c FROM Customer c WHERE c.age = :age") })
 public class Customer implements Serializable {
 
 	private static final long serialVersionUID = 8720861645626740988L;

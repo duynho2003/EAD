@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+
+<h:head>
+	<title>Shop Management</title>
+	<h:outputStylesheet library="css" name="bootstrap.min.css"></h:outputStylesheet>
+</h:head>
+<h:body>
+	<div class="container">
+		<h1>CUSTOMERS MANAGEMENT</h1>
+		<f:view>
+			<h:form>
+				<h:commandLink value="Add New Customer"
+					action="#{shopMgmtBean.displayCreateCustomer()}"></h:commandLink>
+					<br></br>
+					Search by Title:
+					<h:inputText value="#{shopMgmtBean.name}"></h:inputText>
+					<h:commandButton value="Search" action="#{shopMgmtBean.findByName()}"></h:commandButton>
+			</h:form>
+			<h:dataTable class="table" value="#{shopMgmtBean.customers}" var="item">
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="Customer name"></h:outputText>
+					</f:facet>
+					<h:outputText value="#{item.name}"></h:outputText>
+				</h:column>
+				<h:column>
+					<f:facet name="header">
+						<h:outputText value="Customer age"></h:outputText>
+					</f:facet>
+					<h:outputText value="#{item.age}"></h:outputText>
+				</h:column>
+			</h:dataTable>
+		</f:view>
+	</div>
+
+	<h:outputScript library="js" name="bootstrap.bundle.min.js"></h:outputScript>
+</h:body>
+</html>
