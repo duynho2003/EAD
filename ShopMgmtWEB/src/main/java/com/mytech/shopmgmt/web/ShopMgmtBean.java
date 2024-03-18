@@ -26,6 +26,11 @@ public class ShopMgmtBean implements Serializable {
 	private Book book;
 	private long categoryId;
 	
+	//Search
+	private String name;
+	private double minPrice;
+	private double maxPrice;
+	
 	@EJB
 	private BookFacadeRemote bookFacade;
 	
@@ -42,7 +47,17 @@ public class ShopMgmtBean implements Serializable {
 		categories = categoryFacade.findAll();
 	}
 	
-	//
+	//Search
+	public String findByName() {
+		books = bookFacade.findByName(name);
+		return "books";
+	}
+	
+	public String findByPrice() {
+		books = bookFacade.findByPrice(minPrice, maxPrice);
+		return "books";
+	}
+	//Add
 	public String displayCreateBook() {
 		book = new Book();
 		
@@ -90,6 +105,30 @@ public class ShopMgmtBean implements Serializable {
 
 	public void setCategoryId(long categoryId) {
 		this.categoryId = categoryId;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public double getMinPrice() {
+		return minPrice;
+	}
+
+	public void setMinPrice(double minPrice) {
+		this.minPrice = minPrice;
+	}
+
+	public double getMaxPrice() {
+		return maxPrice;
+	}
+
+	public void setMaxPrice(double maxPrice) {
+		this.maxPrice = maxPrice;
 	}
 	
 	

@@ -2,8 +2,8 @@
 <kb-project>
  <depends-on-projects/>
  <used-by-projects>
-  <project name="UpperCaseWEB"/>
   <project name="UpperCaseEJB"/>
+  <project name="UpperCaseWEB"/>
  </used-by-projects>
  <paths>
   <path value="D:/Aptech/Dev Tools/Java/wildfly-30.0.0.Final/modules/system/layers/base/org/wildfly/security/elytron-base/main/wildfly-elytron-auth-2.2.2.Final.jar"/>

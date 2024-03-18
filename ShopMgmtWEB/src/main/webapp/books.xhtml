@@ -16,6 +16,14 @@
 			<h:form>
 				<h:commandLink value="Add New Book"
 					action="#{shopMgmtBean.displayCreateBook()}"></h:commandLink>
+					<br></br>
+					Search by Title:
+					<h:inputText value="#{shopMgmtBean.name}"></h:inputText>
+					<h:commandButton value="Search" action="#{shopMgmtBean.findByName()}"></h:commandButton>
+					Search by Price:
+					Min Price: <h:inputText value="#{shopMgmtBean.minPrice}"></h:inputText>
+					Max Price: <h:inputText action="#{shopMgmtBean.maxPrice}"></h:inputText>
+					<h:commandButton value="Search" action="#{shopMgmtBean.findByPrice()}"></h:commandButton>
 			</h:form>
 			<h:dataTable class="table" value="#{shopMgmtBean.books}" var="item">
 				<h:column>

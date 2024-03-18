@@ -13,4 +13,6 @@ public interface BookFacadeRemote {
 	public void remove(Book book);
 	public Book find(Object id);
 	public List<Book> findAll();
+	public List<Book> findByName(String name);
+	public List<Book> findByPrice(double min, double max);
 }
