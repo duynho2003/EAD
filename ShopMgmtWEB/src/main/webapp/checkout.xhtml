@@ -1,0 +1,24 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+<h:head>
+	<title>SHOP MGMT</title>
+	<h:outputStylesheet library="css" name="bootstrap.min.css"></h:outputStylesheet>
+</h:head>
+<h:body>
+	<div class="container">
+		<h1>SHOP CHECK OUT</h1>
+		<h1>
+			<h:outputText value="#{shopMgmtBean.checkedOutMessage}"></h:outputText>
+		</h1>
+		<h1>
+			<h:commandLink value="Back to Home Shop" action="home" />
+		</h1>
+	</div>
+
+	<h:outputScript library="js" name="bootstrap.bundle.min.css"></h:outputScript>
+</h:body>
+</html>
