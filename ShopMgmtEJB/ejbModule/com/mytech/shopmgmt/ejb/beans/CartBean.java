@@ -27,8 +27,10 @@ public class CartBean implements CartBeanRemote, Serializable {
 	@EJB
 	private OrderCMTBean orderCMTBean; 
 	
-	public CartBean() {
-        
+	@EJB
+	private OrderBMTBean orderBMTBean;
+	
+	public CartBean() {    
     }
 	
 	@PostConstruct
@@ -53,7 +55,8 @@ public class CartBean implements CartBeanRemote, Serializable {
 	}
 	
 	public String checkout(Customer customer) {
-		Order order = orderCMTBean.createOrderUsingSupport(customer, cartItems);
+		//Order order = orderCMTBean.createOrderUsingSupport(customer, cartItems);
+		Order order = orderBMTBean.createOrderUsingRequired(customer, cartItems);
 		if (order != null) {
 			return "Checked Out Success";
 		}

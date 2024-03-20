@@ -41,11 +41,15 @@ public class OrderCMTBean extends AbstractFacade<Order> implements Serializable 
 	@TransactionAttribute(TransactionAttributeType.REQUIRED)
 	public Order createOrderUsingSupport(Customer customer, List<Book> listBooks) {
 		// Kiem tra trong persistence context co load customer chua?
+		Customer customerMerge = null;
 		if (!em.contains(customer)) {
-			em.merge(customer);
+			customerMerge = em.merge(customer);
 		}
 		final Order order = new Order("NEW", customer);
 		// customer.addOrder(order);
+		if (customerMerge != null) {
+			customerMerge.addOrder(order);
+		}
 
 		Date date = new Date();
 
