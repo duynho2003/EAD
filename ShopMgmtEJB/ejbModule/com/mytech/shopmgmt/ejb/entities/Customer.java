@@ -1,6 +1,7 @@
 package com.mytech.shopmgmt.ejb.entities;
 
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.List;
 
 import jakarta.persistence.CascadeType;
@@ -52,16 +53,18 @@ public class Customer implements Serializable {
 	private List<Order> orderList;
 
 	public Customer(@NotNull @Size(min = 3, max = 12) String id, @Size(max = 64) String name,
-			@Size(max = 64) String password, @Min(value = 18, message = "Age should not be less than 18") Integer age) {
+			@Size(max = 64) @NotNull String password, @Min(value = 18, message = "Age should not be less than 18") Integer age) {
 		super();
 		this.id = id;
 		this.name = name;
 		this.password = password;
 		this.age = age;
+		this.orderList = new ArrayList<Order>();
 	}
 
 	public Customer() {
 		super();
+		this.orderList = new ArrayList<Order>();
 	}
 
 	public String getId() {

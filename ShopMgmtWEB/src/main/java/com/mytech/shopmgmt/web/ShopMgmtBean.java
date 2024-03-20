@@ -2,8 +2,12 @@ package com.mytech.shopmgmt.web;
 
 import java.io.Serializable;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+import java.util.Set;
 
+import com.mytech.shopmgmt.ejb.beans.CartBean;
 import com.mytech.shopmgmt.ejb.entities.Book;
 import com.mytech.shopmgmt.ejb.entities.Category;
 import com.mytech.shopmgmt.ejb.entities.Customer;
@@ -35,6 +39,11 @@ public class ShopMgmtBean implements Serializable {
 	private double minPrice;
 	private double maxPrice;
 
+	//Checkout
+	private String customerId;
+	private Map<Long, Boolean> checkedBooks = new HashMap<Long, Boolean>();
+	private String checkedOutMessage;
+	
 	@EJB
 	private BookFacadeRemote bookFacade;
 
@@ -44,6 +53,9 @@ public class ShopMgmtBean implements Serializable {
 	@EJB
 	private CustomerFacade customerFacade;
 
+	@EJB
+	private CartBean cartBean;
+	
 	public ShopMgmtBean() {
 		books = new ArrayList<Book>();
 	}
@@ -53,6 +65,26 @@ public class ShopMgmtBean implements Serializable {
 		books = bookFacade.findAll();
 		categories = categoryFacade.findAll();
 		customers = customerFacade.findAll();
+	}
+	
+	//Checkout
+	public String checkOut() {
+		Set<Long> bookIds = checkedBooks.keySet();
+		for (Long id : bookIds) {
+			Boolean value = checkedBooks.get(id);
+			if (value) {
+				//Add book to cart
+				System.out.println("Book id to add:" + id);
+				Book book = bookFacade.find(id);
+				cartBean.addItem(book);
+				
+				checkedOutMessage = "Checked Out";
+			}
+		}
+		Customer customer = customerFacade.find(customerId);
+		checkedOutMessage = cartBean.checkout(customer);
+		
+		return "checkout";
 	}
 
 	// Search
@@ -99,6 +131,14 @@ public class ShopMgmtBean implements Serializable {
 	//Getter & Setter
 	public List<Book> getBooks() {
 		return books;
+	}
+
+	public String getCustomerId() {
+		return customerId;
+	}
+
+	public void setCustomerId(String customerId) {
+		this.customerId = customerId;
 	}
 
 	public List<Customer> getCustomers() {
@@ -169,4 +209,19 @@ public class ShopMgmtBean implements Serializable {
 		this.maxPrice = maxPrice;
 	}
 
+	public Map<Long, Boolean> getCheckedBooks() {
+		return checkedBooks;
+	}
+
+	public void setCheckedBooks(Map<Long, Boolean> checkedBooks) {
+		this.checkedBooks = checkedBooks;
+	}
+
+	public String getCheckedOutMessage() {
+		return checkedOutMessage;
+	}
+
+	public void setCheckedOutMessage(String checkedOutMessage) {
+		this.checkedOutMessage = checkedOutMessage;
+	}
 }

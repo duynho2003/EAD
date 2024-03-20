@@ -14,50 +14,70 @@
 		<h1>BOOKS MANAGEMENT</h1>
 		<f:view>
 			<h:form>
-				<h:commandLink value="Add New Book" action="#{shopMgmtBean.displayCreateBook()}"></h:commandLink>
+				<h:commandLink value="Add New Book"
+					action="#{shopMgmtBean.displayCreateBook()}"></h:commandLink>
 				<br></br>
 				Search by Title:
 				<h:inputText value="#{shopMgmtBean.name}"></h:inputText>
-				<h:commandButton value="Search" action="#{shopMgmtBean.findByName()}"></h:commandButton>
+				<h:commandButton value="Search"
+					action="#{shopMgmtBean.findByName()}"></h:commandButton>
 				<br></br>
 				Search by Price:
 				Min Price: <h:inputText value="#{shopMgmtBean.minPrice}"></h:inputText>
 				Max Price: <h:inputText value="#{shopMgmtBean.maxPrice}"></h:inputText>
-				<h:commandButton value="Search" action="#{shopMgmtBean.findByPrice()}"></h:commandButton>
+				<h:commandButton value="Search"
+					action="#{shopMgmtBean.findByPrice()}"></h:commandButton>
+				<br></br>
+				<br></br>
+				<div class="row">
+					<div class="col-4">
+						<h:commandLink value="Checkout books"
+							action="#{shopMgmtBean.checkOut()}"></h:commandLink>
+					</div>
+					<div class="col-4">
+						<h:selectOneMenu value="#{shopMgmtBean.customerId}">
+							<f:selectItems value="#{shopMgmtBean.customers}" var="item"
+								itemLabel="#{item.name}" itemValue="#{item.id}">
+							</f:selectItems>
+						</h:selectOneMenu>
+					</div>
+				</div>
+
+				<h:dataTable class="table" value="#{shopMgmtBean.books}" var="item">
+					<h:column>
+						<f:facet name="header">
+							<h:outputText value="Add to Cart"></h:outputText>
+						</f:facet>
+						<h:selectBooleanCheckbox
+							value="#{shopMgmtBean.checkedBooks[item.id]}">
+						</h:selectBooleanCheckbox>
+					</h:column>
+					<h:column>
+						<f:facet name="header">
+							<h:outputText value="Book title"></h:outputText>
+						</f:facet>
+						<h:outputText value="#{item.name}"></h:outputText>
+					</h:column>
+					<h:column>
+						<f:facet name="header">
+							<h:outputText value="Book preview"></h:outputText>
+						</f:facet>
+						<h:outputText value="#{item.preview}"></h:outputText>
+					</h:column>
+					<h:column>
+						<f:facet name="header">
+							<h:outputText value="Book price"></h:outputText>
+						</f:facet>
+						<h:outputText value="#{item.price}"></h:outputText>
+					</h:column>
+					<h:column>
+						<f:facet name="header">
+							<h:outputText value="Category"></h:outputText>
+						</f:facet>
+						<h:outputText value="#{item.category.catName}"></h:outputText>
+					</h:column>
+				</h:dataTable>
 			</h:form>
-			<h:dataTable class="table" value="#{shopMgmtBean.books}" var="item">
-				<h:column>
-					<f:facet name="header">
-						<h:outputText value="Add to Cart"></h:outputText>
-					</f:facet>
-					<h:selectBooleanCheckbox>
-					</h:selectBooleanCheckbox>
-				</h:column>
-				<h:column>
-					<f:facet name="header">
-						<h:outputText value="Book title"></h:outputText>
-					</f:facet>
-					<h:outputText value="#{item.name}"></h:outputText>
-				</h:column>
-				<h:column>
-					<f:facet name="header">
-						<h:outputText value="Book preview"></h:outputText>
-					</f:facet>
-					<h:outputText value="#{item.preview}"></h:outputText>
-				</h:column>
-				<h:column>
-					<f:facet name="header">
-						<h:outputText value="Book price"></h:outputText>
-					</f:facet>
-					<h:outputText value="#{item.price}"></h:outputText>
-				</h:column>
-				<h:column>
-					<f:facet name="header">
-						<h:outputText value="Category"></h:outputText>
-					</f:facet>
-					<h:outputText value="#{item.category.catName}"></h:outputText>
-				</h:column>
-			</h:dataTable>
 		</f:view>
 	</div>
 
