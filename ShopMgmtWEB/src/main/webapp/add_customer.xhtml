@@ -15,6 +15,10 @@
 		<f:view>
 			<h:form>
 				<h:panelGrid columns="3">
+					<h:outputText value="Id"></h:outputText>
+					<h:inputText id="id" required="true" requiredMessage="Must have customer id" value="#{shopMgmtBean.customer.id}"></h:inputText>
+					<h:message for="id"></h:message>
+				
 					<h:outputText value="Name:"></h:outputText>
 					<h:inputText id="customerName" required="true" requiredMessage="Must have customer name" value="#{shopMgmtBean.customer.name}"></h:inputText>
 					<h:message for="customerName"></h:message>

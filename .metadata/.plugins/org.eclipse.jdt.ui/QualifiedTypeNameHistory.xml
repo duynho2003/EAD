@@ -37,17 +37,21 @@
     <fullyQualifiedTypeName name="jakarta.persistence.Query"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
     <fullyQualifiedTypeName name="jakarta.persistence.EntityManager"/>
-    <fullyQualifiedTypeName name="com.mytech.shopmgmt.ejb.facades.AbstractFacade"/>
     <fullyQualifiedTypeName name="jakarta.persistence.PersistenceContext"/>
     <fullyQualifiedTypeName name="java.lang.Object"/>
     <fullyQualifiedTypeName name="jakarta.inject.Named"/>
-    <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.awt.print.Book"/>
-    <fullyQualifiedTypeName name="jakarta.annotation.PostConstruct"/>
-    <fullyQualifiedTypeName name="com.mytech.shopmgmt.ejb.entities.Book"/>
     <fullyQualifiedTypeName name="com.mytech.shopmgmt.ejb.entities.Category"/>
     <fullyQualifiedTypeName name="com.mytech.shopmgmt.ejb.facades.CategoryFacade"/>
     <fullyQualifiedTypeName name="com.mytech.shopmgmt.web.ShopMgmtBean"/>
+    <fullyQualifiedTypeName name="jakarta.persistence.TypedQuery"/>
+    <fullyQualifiedTypeName name="com.mytech.shopmgmt.ejb.facades.AbstractFacade"/>
+    <fullyQualifiedTypeName name="com.mytech.shopmgmt.ejb.entities.Customer"/>
+    <fullyQualifiedTypeName name="com.mytech.shopmgmt.ejb.facades.CustomerFacade"/>
+    <fullyQualifiedTypeName name="java.util.Map"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="jakarta.annotation.PostConstruct"/>
+    <fullyQualifiedTypeName name="com.mytech.shopmgmt.ejb.entities.Book"/>
 </qualifiedTypeNameHistroy>
