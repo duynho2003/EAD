@@ -128,6 +128,13 @@ public class ShopMgmtBean implements Serializable {
 		return "books";
 	}
 
+	public String deleteBook(Book item) {
+		bookFacade.remove(item);
+		//
+		books = bookFacade.findAll();
+		return "books";
+	}
+	
 	//Getter & Setter
 	public List<Book> getBooks() {
 		return books;

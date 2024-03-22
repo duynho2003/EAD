@@ -6,8 +6,14 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="h:form"/>
+		<item key="selection" value="java:/jms/orderMessageTopic2208a"/>
 		<list key="findhistory">
+			<item value="java:/jms/orderMessageTopic2208a"/>
+			<item value="StatusTopic"/>
+			<item value="checkout"/>
+			<item value="statusTopic"/>
+			<item value="em"/>
+			<item value="this.em"/>
 			<item value="h:form"/>
 			<item value="customerId"/>
 			<item value="CustomerId"/>
@@ -17,12 +23,6 @@
 			<item value="employeeNam"/>
 			<item value="Employee"/>
 			<item value="serialVersionUID"/>
-			<item value="catName"/>
-			<item value="employeeAge"/>
-			<item value="employeePassword"/>
-			<item value="employeeName"/>
-			<item value="employeeId"/>
-			<item value="username"/>
 		</list>
 		<list key="replacehistory">
 			<item value="customer"/>

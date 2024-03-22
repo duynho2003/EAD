@@ -76,6 +76,14 @@
 						</f:facet>
 						<h:outputText value="#{item.category.catName}"></h:outputText>
 					</h:column>
+					<h:column>
+						<f:facet name="header">
+							<h:outputText value="Actions"></h:outputText>
+						</f:facet>
+						<h:commandButton value="Edit"></h:commandButton>
+						<br></br>
+						<h:commandButton value="Delete" action="#{shopMgmtBean.deleteBook(item)}"></h:commandButton>
+					</h:column>
 				</h:dataTable>
 			</h:form>
 		</f:view>
