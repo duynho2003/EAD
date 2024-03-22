@@ -117,6 +117,11 @@ public class ShopMgmtBean implements Serializable {
 
 		return "add_book";
 	}
+	
+	public String displayUpdateBook(Book item) {
+		book = item;
+		return "edit_book";
+	}
 
 	public String performCreateBook() {
 		// Need refactor to fix issue.
@@ -128,6 +133,15 @@ public class ShopMgmtBean implements Serializable {
 		return "books";
 	}
 
+	public String performUpdateBook() {
+		Category category = categoryFacade.find(categoryId);
+		book.setCategory(category);
+		bookFacade.update(book);
+		//
+		books = bookFacade.findAll();
+		return "books";
+	}
+	
 	public String deleteBook(Book item) {
 		bookFacade.remove(item);
 		//

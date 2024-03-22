@@ -80,7 +80,7 @@
 						<f:facet name="header">
 							<h:outputText value="Actions"></h:outputText>
 						</f:facet>
-						<h:commandButton value="Edit"></h:commandButton>
+						<h:commandButton value="Edit" action="#{shopMgmtBean.displayUpdateBook(item)}"></h:commandButton>
 						<br></br>
 						<h:commandButton value="Delete" action="#{shopMgmtBean.deleteBook(item)}"></h:commandButton>
 					</h:column>

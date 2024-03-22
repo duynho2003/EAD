@@ -1,11 +1,11 @@
-#Fri Mar 22 14:07:23 ICT 2024
+#Fri Mar 22 15:27:34 ICT 2024
 a=finishWizard
 c=0
 cl=org.jboss.tools.jst.web.ui.wizards.newfile.NewXHTMLWizard
 cmp=usage
 ct=jbt
-d=1711091243604
+d=1711096054649
 l=Wizard class name
-s=0
+s=1
 v=2.3.100
 vl=How many times the 'Finish' button pressed during the day

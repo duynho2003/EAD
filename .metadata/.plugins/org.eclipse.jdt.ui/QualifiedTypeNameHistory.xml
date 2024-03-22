@@ -27,7 +27,6 @@
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.awt.print.Book"/>
-    <fullyQualifiedTypeName name="com.mytech.shopmgmt.ejb.entities.Category"/>
     <fullyQualifiedTypeName name="com.mytech.shopmgmt.ejb.facades.CategoryFacade"/>
     <fullyQualifiedTypeName name="com.mytech.shopmgmt.web.ShopMgmtBean"/>
     <fullyQualifiedTypeName name="jakarta.persistence.TypedQuery"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="jakarta.jms.Session"/>
     <fullyQualifiedTypeName name="jakarta.ejb.ActivationConfigProperty"/>
     <fullyQualifiedTypeName name="jakarta.jms.MapMessage"/>
+    <fullyQualifiedTypeName name="com.mytech.shopmgmt.ejb.entities.Category"/>
 </qualifiedTypeNameHistroy>
