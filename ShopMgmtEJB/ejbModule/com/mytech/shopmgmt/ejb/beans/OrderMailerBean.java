@@ -11,7 +11,7 @@ import jakarta.jms.MessageListener;
  */
 @MessageDriven(activationConfig = {
 		@ActivationConfigProperty(propertyName = "destination", propertyValue = "java:/jms/orderMessageTopic2208a"),
-		@ActivationConfigProperty(propertyName = "destinationType", propertyValue = "jakarta.jms.Queue") }, messageListenerInterface = MessageListener.class)
+		@ActivationConfigProperty(propertyName = "destinationType", propertyValue = "jakarta.jms.Topic") }, messageListenerInterface = MessageListener.class)
 public class OrderMailerBean implements MessageListener {
 
 	/**
