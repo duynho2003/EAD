@@ -6,8 +6,10 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="java:/jms/orderMessageTopic2208a"/>
+		<item key="selection" value="com."/>
 		<list key="findhistory">
+			<item value="com."/>
+			<item value="Jp"/>
 			<item value="java:/jms/orderMessageTopic2208a"/>
 			<item value="StatusTopic"/>
 			<item value="checkout"/>
@@ -21,10 +23,9 @@
 			<item value="employeeBean"/>
 			<item value="employee"/>
 			<item value="employeeNam"/>
-			<item value="Employee"/>
-			<item value="serialVersionUID"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Pn"/>
 			<item value="customer"/>
 			<item value="shopMgmtBean"/>
 			<item value="Book"/>
