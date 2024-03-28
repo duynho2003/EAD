@@ -55,7 +55,15 @@ public class Pretest2Bean implements Serializable {
 		return "laptops";
 	}
 	
-	//xoa
+	//Edit laptop (POST)
+	public String performUpdateLaptop() {
+		laptopFacade.update(laptop);
+		//
+		laptops = laptopFacade.findAll();
+		return "laptops";
+	}
+	
+	//xoa laptop
 	public String deleteLaptop(Laptop item) {
 		laptopFacade.remove(item);
 		//
