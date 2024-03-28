@@ -13,4 +13,6 @@ public interface LaptopRemote {
 	public void remove(Laptop laptop);
 	public Laptop find(Object id);
 	public List<Laptop> findAll();
+	public List<Laptop> findByName(String name);
+	public List<Laptop> findByPrice(double min, double max);
 }

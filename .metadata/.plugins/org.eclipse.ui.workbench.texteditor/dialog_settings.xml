@@ -6,8 +6,11 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="return &quot;books&quot;"/>
+		<item key="selection" value="shopMgmtBean"/>
 		<list key="findhistory">
+			<item value="shopMgmtBean"/>
+			<item value="name"/>
+			<item value="shop"/>
 			<item value="return &quot;books&quot;"/>
 			<item value="books"/>
 			<item value="Book getBook"/>
@@ -20,9 +23,6 @@
 			<item value="java:/jms/orderMessageTopic2208a"/>
 			<item value="StatusTopic"/>
 			<item value="checkout"/>
-			<item value="statusTopic"/>
-			<item value="em"/>
-			<item value="this.em"/>
 		</list>
 		<list key="replacehistory">
 			<item value="Pn"/>

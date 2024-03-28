@@ -16,7 +16,21 @@
 			<h:form>
 				<h:commandLink value="Add New Laptop"
 					action="#{pretest2Bean.displayCreateLaptop()}"></h:commandLink>
-				<h:dataTable class="table" value="#{pretest2Bean.laptops}" var="item">
+				<br></br>
+				Search by Title:
+				<h:inputText value="#{pretest2Bean.name}"></h:inputText>
+				<h:commandButton value="Search"
+					action="#{pretest2Bean.findByName()}"></h:commandButton>
+				<br></br>
+				Search by Price:
+				Min Price: <h:inputText value="#{pretest2Bean.minPrice}"></h:inputText>
+				Max Price: <h:inputText value="#{pretest2Bean.maxPrice}"></h:inputText>
+				<h:commandButton value="Search"
+					action="#{pretest2Bean.findByPrice()}"></h:commandButton>
+				<br></br>
+				<br></br>
+				<h:dataTable class="table" value="#{pretest2Bean.laptops}"
+					var="item">
 					<h:column>
 						<f:facet name="header">
 							<h:outputText value="Laptop name"></h:outputText>

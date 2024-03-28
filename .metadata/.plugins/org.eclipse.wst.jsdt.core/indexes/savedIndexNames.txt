@@ -1,5 +1,4 @@
 INDEX VERSION 1.4+D:\Aptech\workspace\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
-3784890519.index
 2962812293.index
 2277506307.index
 3149895961.index

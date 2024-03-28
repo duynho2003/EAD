@@ -1,6 +1,7 @@
 package com.mytech.pretest2.ejb.facades;
 
 import java.io.Serializable;
+import java.util.List;
 
 import com.mytech.pretest2.ejb.entities.Laptop;
 
@@ -8,6 +9,7 @@ import jakarta.ejb.LocalBean;
 import jakarta.ejb.Stateless;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
+import jakarta.persistence.TypedQuery;
 
 /**
  * Session Bean implementation class LaptopFacade
@@ -31,4 +33,20 @@ public class LaptopFacade extends AbstractFacade<Laptop> implements LaptopRemote
 		return em;
 	}
 
+	@Override
+	public List<Laptop> findByName(String name) {
+		TypedQuery<Laptop> query = em.createQuery("SELECT l FROM Laptop l WHERE l.name LIKE :name", Laptop.class);
+		query.setParameter("name", "%" + name + "%");
+		
+		return query.getResultList();
+	}
+
+	@Override
+	public List<Laptop> findByPrice(double min, double max) {
+		TypedQuery<Laptop> query = em.createQuery("SELECT l FROM Laptop l WHERE l.price BETWEEN ?1 AND ?2", Laptop.class);
+		query.setParameter(1, min);
+		query.setParameter(2, max);
+		
+		return query.getResultList();
+	}
 }
