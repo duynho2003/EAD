@@ -14,7 +14,8 @@
 		<h1>LAPTOPS MANAGEMENT</h1>
 		<f:view>
 			<h:form>
-				<!-- </h:form> -->
+				<h:commandLink value="Add New Laptop"
+					action="#{pretest2Bean.displayCreateLaptop()}"></h:commandLink>
 				<h:dataTable class="table" value="#{pretest2Bean.laptops}" var="item">
 					<h:column>
 						<f:facet name="header">
@@ -27,6 +28,14 @@
 							<h:outputText value="Laptop price"></h:outputText>
 						</f:facet>
 						<h:outputText value="#{item.price}"></h:outputText>
+					</h:column>
+					<h:column>
+						<f:facet name="header">
+							<h:outputText value="Actions"></h:outputText>
+						</f:facet>
+						<br></br>
+						<h:commandButton value="Delete"
+							action="#{pretest2Bean.deleteLaptop(item)}"></h:commandButton>
 					</h:column>
 				</h:dataTable>
 			</h:form>
