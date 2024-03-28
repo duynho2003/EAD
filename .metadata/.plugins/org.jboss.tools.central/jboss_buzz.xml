@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>JBoss Tools Aggregated Feed</title>
   <id>https://tools.jboss.org</id>
-  <updated>2024-03-27T12:16:10Z</updated>
+  <updated>2024-03-28T06:11:53Z</updated>
   <link href="https://tools.jboss.org"/>
   <xhtml:meta content="noindex" name="robots" xmlns:xhtml="http://www.w3.org/1999/xhtml"/><entry>
+    <title>JBoss Blogs: How to install KeyCloak with Ansible</title>
+    <updated>2024-03-27T13:24:35Z</updated>
+    <id>https://www.mastertheboss.com/various-stuff/ansible/how-to-install-keycloak-with-ansible/</id>
+    <link href="https://www.mastertheboss.com/various-stuff/ansible/how-to-install-keycloak-with-ansible/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
     <title>JBoss Blogs: Ansible CheatSheet for DevOps</title>
     <updated>2024-03-27T09:29:54Z</updated>
     <id>https://www.mastertheboss.com/various-stuff/ansible/ansible-cheatsheet-for-devops/</id>
@@ -18,14 +25,21 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Blogs: Use OIDC Proxy to integrate OIDC service endpoints with custom GPT</title>
+    <title>JBoss Blogs: Eclipse Vert.x 4.5.7 released!</title>
+    <updated>2024-03-27T00:00:00Z</updated>
+    <id>https://vertx.io/blog/eclipse-vert-x-4-5-7</id>
+    <link href="https://vertx.io/blog/eclipse-vert-x-4-5-7" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Quarkus: Use OIDC Proxy to integrate OIDC service endpoints with custom GPT</title>
     <updated>2024-03-27T00:00:00Z</updated>
     <id>https://quarkus.io/blog/oidc-proxy/</id>
     <link href="https://quarkus.io/blog/oidc-proxy/" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
-    <title>Quarkus: Use OIDC Proxy to integrate OIDC service endpoints with custom GPT</title>
+    <title>JBoss Blogs: Use OIDC Proxy to integrate OIDC service endpoints with custom GPT</title>
     <updated>2024-03-27T00:00:00Z</updated>
     <id>https://quarkus.io/blog/oidc-proxy/</id>
     <link href="https://quarkus.io/blog/oidc-proxy/" rel="alternate"/>
@@ -81,17 +95,17 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>Red Hat Developer: Benchmark Cyclone DDS in CentOS Stream 9 VMs for low latency</title>
-    <updated>2024-03-21T07:00:00Z</updated>
-    <id>393c0a78-a4d0-423e-ad01-f704b54d989e</id>
-    <link href="https://developers.redhat.com/articles/2024/03/21/benchmark-cyclone-dds-centos-stream-9-vms-low-latency" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
     <title>Red Hat Developer: Implement Source-to-Image builds in an Azure DevOps pipeline</title>
     <updated>2024-03-21T07:00:00Z</updated>
     <id>06c32f8b-1ca8-484a-bfb7-e06f2af8285c</id>
     <link href="https://developers.redhat.com/articles/2024/03/21/implement-source-image-builds-azure-devops-pipeline" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Red Hat Developer: Benchmark Cyclone DDS in CentOS Stream 9 VMs for low latency</title>
+    <updated>2024-03-21T07:00:00Z</updated>
+    <id>393c0a78-a4d0-423e-ad01-f704b54d989e</id>
+    <link href="https://developers.redhat.com/articles/2024/03/21/benchmark-cyclone-dds-centos-stream-9-vms-low-latency" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -144,17 +158,17 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>Red Hat Developer: Optimizing Quay/Clair: Database profiling results</title>
-    <updated>2024-03-19T07:00:00Z</updated>
-    <id>aa656170-d0af-49ce-8f3c-6b8174c2d317</id>
-    <link href="https://developers.redhat.com/articles/2024/03/19/optimizing-quayclair-database-profiling-results" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
     <title>Red Hat Developer: Optimizing Quay/Clair: Profiling, performance, and efficiency</title>
     <updated>2024-03-19T07:00:00Z</updated>
     <id>843cca29-b59f-4fdf-915d-231506503a3a</id>
     <link href="https://developers.redhat.com/articles/2024/03/19/optimizing-quayclair-profiling-performance-and-efficiency" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Red Hat Developer: Optimizing Quay/Clair: Database profiling results</title>
+    <updated>2024-03-19T07:00:00Z</updated>
+    <id>aa656170-d0af-49ce-8f3c-6b8174c2d317</id>
+    <link href="https://developers.redhat.com/articles/2024/03/19/optimizing-quayclair-database-profiling-results" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -165,17 +179,17 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Blogs: WildFly Mini Conference Recap</title>
-    <updated>2024-03-19T00:00:00Z</updated>
-    <id>https://wildfly.org//news/2024/03/19/WildFly-mini-conference-recap/</id>
-    <link href="https://wildfly.org//news/2024/03/19/WildFly-mini-conference-recap/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
     <title>JBoss Blogs: Quarkus 3.8.3 released - Maintenance release</title>
     <updated>2024-03-19T00:00:00Z</updated>
     <id>https://quarkus.io/blog/quarkus-3-8-3-released/</id>
     <link href="https://quarkus.io/blog/quarkus-3-8-3-released/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: WildFly Mini Conference Recap</title>
+    <updated>2024-03-19T00:00:00Z</updated>
+    <id>https://wildfly.org//news/2024/03/19/WildFly-mini-conference-recap/</id>
+    <link href="https://wildfly.org//news/2024/03/19/WildFly-mini-conference-recap/" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -193,14 +207,14 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Blogs: Quarkus 3.2.11.Final released - Maintenance LTS release</title>
+    <title>Quarkus: Quarkus 3.2.11.Final released - Maintenance LTS release</title>
     <updated>2024-03-15T00:00:00Z</updated>
     <id>https://quarkus.io/blog/quarkus-3-2-11-final-released/</id>
     <link href="https://quarkus.io/blog/quarkus-3-2-11-final-released/" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
-    <title>Quarkus: Quarkus 3.2.11.Final released - Maintenance LTS release</title>
+    <title>JBoss Blogs: Quarkus 3.2.11.Final released - Maintenance LTS release</title>
     <updated>2024-03-15T00:00:00Z</updated>
     <id>https://quarkus.io/blog/quarkus-3-2-11-final-released/</id>
     <link href="https://quarkus.io/blog/quarkus-3-2-11-final-released/" rel="alternate"/>
@@ -214,13 +228,6 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Blogs: Infinispan 15.0.0.Final</title>
-    <updated>2024-03-13T00:00:00Z</updated>
-    <id>https://infinispan.org/blog/2024/03/12/infinispan-15</id>
-    <link href="https://infinispan.org/blog/2024/03/12/infinispan-15" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
     <title>JBoss Blogs: Quarkus Newsletter #42 - March</title>
     <updated>2024-03-13T00:00:00Z</updated>
     <id>https://quarkus.io/blog/quarkus-newsletter-42/</id>
@@ -228,10 +235,10 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Blogs: Trying Out An Upcoming Security Feature for WildFly on OpenShift</title>
+    <title>JBoss Blogs: Infinispan 15.0.0.Final</title>
     <updated>2024-03-13T00:00:00Z</updated>
-    <id>https://wildfly-security.github.io/wildfly-elytron/blog/in-progress-wildfly-feature-on-openshift/</id>
-    <link href="https://wildfly-security.github.io/wildfly-elytron/blog/in-progress-wildfly-feature-on-openshift/" rel="alternate"/>
+    <id>https://infinispan.org/blog/2024/03/12/infinispan-15</id>
+    <link href="https://infinispan.org/blog/2024/03/12/infinispan-15" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -239,13 +246,6 @@
     <updated>2024-03-13T00:00:00Z</updated>
     <id>https://quarkus.io/blog/quarkus-newsletter-42/</id>
     <link href="https://quarkus.io/blog/quarkus-newsletter-42/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: Hosting a React Application on WildFly</title>
-    <updated>2024-03-08T00:00:00Z</updated>
-    <id>http://lofthouse.dev/2024/03/07/hosting-a-react-application-on-wildfly/</id>
-    <link href="http://lofthouse.dev/2024/03/07/hosting-a-react-application-on-wildfly/" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -291,17 +291,17 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Tools: JBoss Tools 4.28.0.Final for Eclipse 2023-06</title>
-    <updated>2023-07-03T00:00:00Z</updated>
-    <id>https://tools.jboss.org/blog/4.28.0.final.html</id>
-    <link href="https://tools.jboss.org/blog/4.28.0.final.html" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
     <title>JBoss Blogs: This Week in JBoss - July 03, 2023</title>
     <updated>2023-07-03T00:00:00Z</updated>
     <id>https://www.jboss.org/posts/weekly-2023-07-03.html</id>
     <link href="https://www.jboss.org/posts/weekly-2023-07-03.html" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Tools: JBoss Tools 4.28.0.Final for Eclipse 2023-06</title>
+    <updated>2023-07-03T00:00:00Z</updated>
+    <id>https://tools.jboss.org/blog/4.28.0.final.html</id>
+    <link href="https://tools.jboss.org/blog/4.28.0.final.html" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -627,17 +627,17 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Blogs: This Week in JBoss - January 13th 2022</title>
-    <updated>2022-01-13T00:00:00Z</updated>
-    <id>https://www.jboss.org/posts/weekly-2022-01-13.html</id>
-    <link href="https://www.jboss.org/posts/weekly-2022-01-13.html" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
     <title>JBoss Tools: JBoss Tools and Red Hat CodeReady Studio for Eclipse 2021-09 security fix release for Apache Log4j CVE-2021-45105 and CVE-2021-44832</title>
     <updated>2022-01-13T00:00:00Z</updated>
     <id>https://tools.jboss.org/blog/12.21.2.ga.html</id>
     <link href="https://tools.jboss.org/blog/12.21.2.ga.html" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: This Week in JBoss - January 13th 2022</title>
+    <updated>2022-01-13T00:00:00Z</updated>
+    <id>https://www.jboss.org/posts/weekly-2022-01-13.html</id>
+    <link href="https://www.jboss.org/posts/weekly-2022-01-13.html" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>

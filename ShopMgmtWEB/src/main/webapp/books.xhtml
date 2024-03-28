@@ -31,7 +31,7 @@
 				<br></br>
 				<div class="row">
 					<div class="col-4">
-						<h:commandLink value="Checkout books"
+						<h:commandLink value="Checkout Books"
 							action="#{shopMgmtBean.checkOut()}"></h:commandLink>
 					</div>
 					<div class="col-4">
@@ -42,7 +42,7 @@
 						</h:selectOneMenu>
 					</div>
 				</div>
-
+				<!-- </h:form> -->
 				<h:dataTable class="table" value="#{shopMgmtBean.books}" var="item">
 					<h:column>
 						<f:facet name="header">
@@ -72,6 +72,14 @@
 					</h:column>
 					<h:column>
 						<f:facet name="header">
+							<h:outputText value="Book image"></h:outputText>
+						</f:facet>
+						<h:graphicImage width="80" height="80"
+							value="images/#{item.fileName}">
+						</h:graphicImage>
+					</h:column>
+					<h:column>
+						<f:facet name="header">
 							<h:outputText value="Category"></h:outputText>
 						</f:facet>
 						<h:outputText value="#{item.category.catName}"></h:outputText>
@@ -80,9 +88,11 @@
 						<f:facet name="header">
 							<h:outputText value="Actions"></h:outputText>
 						</f:facet>
-						<h:commandButton value="Edit" action="#{shopMgmtBean.displayUpdateBook(item)}"></h:commandButton>
+						<h:commandButton value="Edit"
+							action="#{shopMgmtBean.displayUpdateBook(item)}"></h:commandButton>
 						<br></br>
-						<h:commandButton value="Delete" action="#{shopMgmtBean.deleteBook(item)}"></h:commandButton>
+						<h:commandButton value="Delete"
+							action="#{shopMgmtBean.deleteBook(item)}"></h:commandButton>
 					</h:column>
 				</h:dataTable>
 			</h:form>

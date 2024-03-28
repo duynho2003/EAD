@@ -6,8 +6,9 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="com."/>
+		<item key="selection" value="categoryFacade"/>
 		<list key="findhistory">
+			<item value="categoryFacade"/>
 			<item value="com."/>
 			<item value="Jp"/>
 			<item value="java:/jms/orderMessageTopic2208a"/>
@@ -22,7 +23,6 @@
 			<item value="book"/>
 			<item value="employeeBean"/>
 			<item value="employee"/>
-			<item value="employeeNam"/>
 		</list>
 		<list key="replacehistory">
 			<item value="Pn"/>
