@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="jakarta.persistence.GenerationType"/>
-    <fullyQualifiedTypeName name="jakarta.persistence.Column"/>
     <fullyQualifiedTypeName name="jakarta.persistence.OneToMany"/>
     <fullyQualifiedTypeName name="jakarta.persistence.ManyToOne"/>
     <fullyQualifiedTypeName name="jakarta.persistence.JoinColumn"/>
@@ -55,9 +53,11 @@
     <fullyQualifiedTypeName name="jakarta.enterprise.context.SessionScoped"/>
     <fullyQualifiedTypeName name="java.awt.image.ImageConsumer"/>
     <fullyQualifiedTypeName name="com.mytech.imageapp.editor.ImageFileEditor"/>
-    <fullyQualifiedTypeName name="java.io.Serializable"/>
     <fullyQualifiedTypeName name="com.mytech.imageapp.logger.TimeLogger"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
     <fullyQualifiedTypeName name="jakarta.enterprise.inject.Produces"/>
     <fullyQualifiedTypeName name="jakarta.enterprise.context.ApplicationScoped"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="com.mytech.test.ejb.entities.Laptop"/>
+    <fullyQualifiedTypeName name="com.mytech.test.ejb.facades.LaptopFacadeRemote"/>
 </qualifiedTypeNameHistroy>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>JBoss Tools Aggregated Feed</title>
   <id>https://tools.jboss.org</id>
-  <updated>2024-03-28T06:11:53Z</updated>
+  <updated>2024-03-28T12:17:01Z</updated>
   <link href="https://tools.jboss.org"/>
   <xhtml:meta content="noindex" name="robots" xmlns:xhtml="http://www.w3.org/1999/xhtml"/><entry>
     <title>JBoss Blogs: How to install KeyCloak with Ansible</title>
@@ -95,13 +95,6 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>Red Hat Developer: Implement Source-to-Image builds in an Azure DevOps pipeline</title>
-    <updated>2024-03-21T07:00:00Z</updated>
-    <id>06c32f8b-1ca8-484a-bfb7-e06f2af8285c</id>
-    <link href="https://developers.redhat.com/articles/2024/03/21/implement-source-image-builds-azure-devops-pipeline" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
     <title>Red Hat Developer: Benchmark Cyclone DDS in CentOS Stream 9 VMs for low latency</title>
     <updated>2024-03-21T07:00:00Z</updated>
     <id>393c0a78-a4d0-423e-ad01-f704b54d989e</id>
@@ -109,10 +102,10 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>Quarkus: Evolving Quarkus extension naming for clarity</title>
-    <updated>2024-03-21T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/the-big-rename/</id>
-    <link href="https://quarkus.io/blog/the-big-rename/" rel="alternate"/>
+    <title>Red Hat Developer: Implement Source-to-Image builds in an Azure DevOps pipeline</title>
+    <updated>2024-03-21T07:00:00Z</updated>
+    <id>06c32f8b-1ca8-484a-bfb7-e06f2af8285c</id>
+    <link href="https://developers.redhat.com/articles/2024/03/21/implement-source-image-builds-azure-devops-pipeline" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -124,6 +117,13 @@
   </entry>
   <entry>
     <title>JBoss Blogs: Evolving Quarkus extension naming for clarity</title>
+    <updated>2024-03-21T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/the-big-rename/</id>
+    <link href="https://quarkus.io/blog/the-big-rename/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Quarkus: Evolving Quarkus extension naming for clarity</title>
     <updated>2024-03-21T00:00:00Z</updated>
     <id>https://quarkus.io/blog/the-big-rename/</id>
     <link href="https://quarkus.io/blog/the-big-rename/" rel="alternate"/>
@@ -228,6 +228,13 @@
     <summary type="html"/>
   </entry>
   <entry>
+    <title>Quarkus: Quarkus Newsletter #42 - March</title>
+    <updated>2024-03-13T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/quarkus-newsletter-42/</id>
+    <link href="https://quarkus.io/blog/quarkus-newsletter-42/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
     <title>JBoss Blogs: Quarkus Newsletter #42 - March</title>
     <updated>2024-03-13T00:00:00Z</updated>
     <id>https://quarkus.io/blog/quarkus-newsletter-42/</id>
@@ -239,13 +246,6 @@
     <updated>2024-03-13T00:00:00Z</updated>
     <id>https://infinispan.org/blog/2024/03/12/infinispan-15</id>
     <link href="https://infinispan.org/blog/2024/03/12/infinispan-15" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>Quarkus: Quarkus Newsletter #42 - March</title>
-    <updated>2024-03-13T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/quarkus-newsletter-42/</id>
-    <link href="https://quarkus.io/blog/quarkus-newsletter-42/" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -627,17 +627,17 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Tools: JBoss Tools and Red Hat CodeReady Studio for Eclipse 2021-09 security fix release for Apache Log4j CVE-2021-45105 and CVE-2021-44832</title>
-    <updated>2022-01-13T00:00:00Z</updated>
-    <id>https://tools.jboss.org/blog/12.21.2.ga.html</id>
-    <link href="https://tools.jboss.org/blog/12.21.2.ga.html" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
     <title>JBoss Blogs: This Week in JBoss - January 13th 2022</title>
     <updated>2022-01-13T00:00:00Z</updated>
     <id>https://www.jboss.org/posts/weekly-2022-01-13.html</id>
     <link href="https://www.jboss.org/posts/weekly-2022-01-13.html" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Tools: JBoss Tools and Red Hat CodeReady Studio for Eclipse 2021-09 security fix release for Apache Log4j CVE-2021-45105 and CVE-2021-44832</title>
+    <updated>2022-01-13T00:00:00Z</updated>
+    <id>https://tools.jboss.org/blog/12.21.2.ga.html</id>
+    <link href="https://tools.jboss.org/blog/12.21.2.ga.html" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
