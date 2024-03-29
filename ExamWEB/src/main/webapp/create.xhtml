@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://java.sun.com/jsf/facelets"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:h="http://java.sun.com/jsf/html">
+
+
+<h:head>
+	<title>Create new Product</title>
+	<h:outputStylesheet library="css" name="bootstrap.min.css"></h:outputStylesheet>
+</h:head>
+<h:body>
+	<div class="container">
+		<h1>Create NEW Product</h1>
+		<f:view>
+			<!-- enctype="multipart/form-data" upload file  -->
+			<h:form>
+				<h:panelGrid columns="3">
+					<h:outputText value="Enter Name:"></h:outputText>
+					<h:inputText id="name" required="true"
+						requiredMessage="Must have product name"
+						value="#{SaleServlet.product.name}"></h:inputText>
+					<h:message for="name"></h:message>
+
+					<h:outputText value="Book Price:"></h:outputText>
+					<h:inputText id="bookPrice" required="true"
+						requiredMessage="Price must be great than 0"
+						value="#{SaleServlet.product.price}"></h:inputText>
+					<h:message for="bookPrice"></h:message>
+					
+					<h:outputText value="Book Quantity"></h:outputText>
+					<h:inputText id="quantity" required="true"
+						requiredMessage="Quantity must have at least 1"
+						value="#{SaleServlet.product.quantity}"></h:inputText>
+					<h:message for="quantity"></h:message>
+
+					<h:outputText value="Book category:"></h:outputText>
+					<h:selectOneMenu value="#{SaleServlet.categoryid}">
+						<f:selectItems value="#{SaleServlet.categories}" var="item"
+							itemLabel="#{item.catName}" itemValue="#{item.catId}">
+						</f:selectItems>
+					</h:selectOneMenu>
+					<h:message></h:message>
+				</h:panelGrid>
+
+				<h:commandButton value="Create"
+					action="#{SaleServlet.performCreateProduct()}"></h:commandButton>
+			</h:form>
+		</f:view>
+	</div>
+
+	<h:outputScript library="js" name="bootstrap.bundle.min.js"></h:outputScript>
+</h:body>
+</html>

@@ -6,25 +6,28 @@
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="shopMgmtBean"/>
+		<item key="selection" value="CategoryId"/>
 		<list key="findhistory">
+			<item value="categoryid"/>
+			<item value="categoryId"/>
+			<item value="SaleServlet"/>
+			<item value="add"/>
+			<item value="Laptops"/>
+			<item value="pretest2Bean"/>
+			<item value="Book"/>
 			<item value="shopMgmtBean"/>
 			<item value="name"/>
 			<item value="shop"/>
 			<item value="return &quot;books&quot;"/>
 			<item value="books"/>
 			<item value="Book getBook"/>
-			<item value="Book"/>
 			<item value="setBooks"/>
 			<item value="BookFacade"/>
-			<item value="categoryFacade"/>
-			<item value="com."/>
-			<item value="Jp"/>
-			<item value="java:/jms/orderMessageTopic2208a"/>
-			<item value="StatusTopic"/>
-			<item value="checkout"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Products"/>
+			<item value="SaleServlet"/>
+			<item value="Product"/>
 			<item value="Pn"/>
 			<item value="customer"/>
 			<item value="shopMgmtBean"/>
