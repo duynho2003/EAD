@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><feed xmlns="http://www.w3.org/2005/Atom">
   <title>JBoss Tools Aggregated Feed</title>
   <id>https://tools.jboss.org</id>
-  <updated>2024-03-29T06:11:39Z</updated>
+  <updated>2024-04-01T06:12:27Z</updated>
   <link href="https://tools.jboss.org"/>
   <xhtml:meta content="noindex" name="robots" xmlns:xhtml="http://www.w3.org/1999/xhtml"/><entry>
+    <title>JBoss Blogs: How to replace Java Security Manager</title>
+    <updated>2024-03-29T14:49:27Z</updated>
+    <id>https://www.mastertheboss.com/uncategorised/how-to-replace-java-security-manager/</id>
+    <link href="https://www.mastertheboss.com/uncategorised/how-to-replace-java-security-manager/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
     <title>Red Hat Developer: Packet capture using Network Observability eBPF Agent</title>
     <updated>2024-03-28T14:00:00Z</updated>
     <id>1436d8ea-2740-42a2-ae76-77d9e38bb08f</id>
@@ -11,17 +18,17 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Blogs: Eclipse Vert.x 4.4.9 released!</title>
-    <updated>2024-03-28T00:00:00Z</updated>
-    <id>https://vertx.io/blog/eclipse-vert-x-4-4-9</id>
-    <link href="https://vertx.io/blog/eclipse-vert-x-4-4-9" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
     <title>JBoss Blogs: Vlog: WildFly Glow, direct deployment to OpenShift</title>
     <updated>2024-03-28T00:00:00Z</updated>
     <id>https://youtu.be/GkfSHiqyBDU</id>
     <link href="https://youtu.be/GkfSHiqyBDU" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: Eclipse Vert.x 4.4.9 released!</title>
+    <updated>2024-03-28T00:00:00Z</updated>
+    <id>https://vertx.io/blog/eclipse-vert-x-4-4-9</id>
+    <link href="https://vertx.io/blog/eclipse-vert-x-4-4-9" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -46,6 +53,13 @@
     <summary type="html"/>
   </entry>
   <entry>
+    <title>Quarkus: Quarkus 3.9 - Big Reactive Rename</title>
+    <updated>2024-03-27T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/quarkus-3-9-1-released/</id>
+    <link href="https://quarkus.io/blog/quarkus-3-9-1-released/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
     <title>JBoss Blogs: Quarkus 3.9 - Big Reactive Rename</title>
     <updated>2024-03-27T00:00:00Z</updated>
     <id>https://quarkus.io/blog/quarkus-3-9-1-released/</id>
@@ -64,13 +78,6 @@
     <updated>2024-03-27T00:00:00Z</updated>
     <id>https://quarkus.io/blog/oidc-proxy/</id>
     <link href="https://quarkus.io/blog/oidc-proxy/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>Quarkus: Quarkus 3.9 - Big Reactive Rename</title>
-    <updated>2024-03-27T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/quarkus-3-9-1-released/</id>
-    <link href="https://quarkus.io/blog/quarkus-3-9-1-released/" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -144,10 +151,10 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>Quarkus: Evolving Quarkus extension naming for clarity</title>
+    <title>JBoss Blogs: Eclipse Vert.x 4.5.6 released!</title>
     <updated>2024-03-21T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/the-big-rename/</id>
-    <link href="https://quarkus.io/blog/the-big-rename/" rel="alternate"/>
+    <id>https://vertx.io/blog/eclipse-vert-x-4-5-6</id>
+    <link href="https://vertx.io/blog/eclipse-vert-x-4-5-6" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -158,17 +165,10 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Blogs: Eclipse Vert.x 4.5.6 released!</title>
+    <title>Quarkus: Evolving Quarkus extension naming for clarity</title>
     <updated>2024-03-21T00:00:00Z</updated>
-    <id>https://vertx.io/blog/eclipse-vert-x-4-5-6</id>
-    <link href="https://vertx.io/blog/eclipse-vert-x-4-5-6" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>Red Hat Developer: Using Kuadrant Gateway API policies with Gatekeeper policies</title>
-    <updated>2024-03-20T07:00:00Z</updated>
-    <id>752edb9f-3db0-4abc-afc2-777c857ff4ef</id>
-    <link href="https://developers.redhat.com/articles/2024/03/20/using-kuadrant-gateway-api-policies-gatekeeper-policies" rel="alternate"/>
+    <id>https://quarkus.io/blog/the-big-rename/</id>
+    <link href="https://quarkus.io/blog/the-big-rename/" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -176,6 +176,13 @@
     <updated>2024-03-20T07:00:00Z</updated>
     <id>1edc2259-2997-4963-89d7-11658ec714a8</id>
     <link href="https://developers.redhat.com/articles/2024/03/20/whats-new-network-observability-15" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>Red Hat Developer: Using Kuadrant Gateway API policies with Gatekeeper policies</title>
+    <updated>2024-03-20T07:00:00Z</updated>
+    <id>752edb9f-3db0-4abc-afc2-777c857ff4ef</id>
+    <link href="https://developers.redhat.com/articles/2024/03/20/using-kuadrant-gateway-api-policies-gatekeeper-policies" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -207,17 +214,17 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Blogs: Quarkus 3.8.3 released - Maintenance release</title>
-    <updated>2024-03-19T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/quarkus-3-8-3-released/</id>
-    <link href="https://quarkus.io/blog/quarkus-3-8-3-released/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
     <title>JBoss Blogs: WildFly Mini Conference Recap</title>
     <updated>2024-03-19T00:00:00Z</updated>
     <id>https://wildfly.org//news/2024/03/19/WildFly-mini-conference-recap/</id>
     <link href="https://wildfly.org//news/2024/03/19/WildFly-mini-conference-recap/" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Blogs: Quarkus 3.8.3 released - Maintenance release</title>
+    <updated>2024-03-19T00:00:00Z</updated>
+    <id>https://quarkus.io/blog/quarkus-3-8-3-released/</id>
+    <link href="https://quarkus.io/blog/quarkus-3-8-3-released/" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -232,13 +239,6 @@
     <updated>2024-03-15T18:00:22Z</updated>
     <id>https://www.mastertheboss.com/soa-cloud/quarkus/how-to-use-a-datasource-in-quarkus/</id>
     <link href="https://www.mastertheboss.com/soa-cloud/quarkus/how-to-use-a-datasource-in-quarkus/" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
-    <title>JBoss Blogs: Quarkus 3.2.11.Final released - Maintenance LTS release</title>
-    <updated>2024-03-15T00:00:00Z</updated>
-    <id>https://quarkus.io/blog/quarkus-3-2-11-final-released/</id>
-    <link href="https://quarkus.io/blog/quarkus-3-2-11-final-released/" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
@@ -627,17 +627,17 @@
     <summary type="html"/>
   </entry>
   <entry>
-    <title>JBoss Tools: JBoss Tools and Red Hat CodeReady Studio for Eclipse 2021-09 security fix release for Apache Log4j CVE-2021-45105 and CVE-2021-44832</title>
-    <updated>2022-01-13T00:00:00Z</updated>
-    <id>https://tools.jboss.org/blog/12.21.2.ga.html</id>
-    <link href="https://tools.jboss.org/blog/12.21.2.ga.html" rel="alternate"/>
-    <summary type="html"/>
-  </entry>
-  <entry>
     <title>JBoss Blogs: This Week in JBoss - January 13th 2022</title>
     <updated>2022-01-13T00:00:00Z</updated>
     <id>https://www.jboss.org/posts/weekly-2022-01-13.html</id>
     <link href="https://www.jboss.org/posts/weekly-2022-01-13.html" rel="alternate"/>
+    <summary type="html"/>
+  </entry>
+  <entry>
+    <title>JBoss Tools: JBoss Tools and Red Hat CodeReady Studio for Eclipse 2021-09 security fix release for Apache Log4j CVE-2021-45105 and CVE-2021-44832</title>
+    <updated>2022-01-13T00:00:00Z</updated>
+    <id>https://tools.jboss.org/blog/12.21.2.ga.html</id>
+    <link href="https://tools.jboss.org/blog/12.21.2.ga.html" rel="alternate"/>
     <summary type="html"/>
   </entry>
   <entry>
